@@ -7,6 +7,9 @@
 #' networked population using  respondent-driven sampling data collected from
 #' each cluster.
 #'
+#' Based on HPMRG project software (http://hpmrg.org).
+#' For license and citation information see http://hpmrg.org/attribution
+#'
 #' When publishing results obtained using this package the original authors are
 #' to be cited as:
 #'
