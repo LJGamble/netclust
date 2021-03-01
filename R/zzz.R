@@ -17,7 +17,7 @@
 ## Based on HPMRG project software (http://hpmrg.org).
 ## For license and citation information see http://hpmrg.org/attribution
 
-.onLoad <-function(libname, pkgname){
+.onAttach <- function(libname, pkgname){
   temp<-packageDescription("netclust")
   msg<-paste(temp$Package,": ",temp$Title,"\n",
              "Version ",temp$Version,
