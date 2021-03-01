@@ -1,11 +1,14 @@
-#' Estimate the Size of Clustered Hidden Populations Using Respondent Driven
-#' Sampling Data: an Extension of SS-PSE
+#' Estimate the Size of Clustered Hidden Populations Using Respondent-
+#' Driven Sampling Data: an Extension of SS-PSE
 #'
 #' Extends SS-PSE methods created by Handcock, Gile, and Mar (2014) and
 #' implemented in the sspse package by Handcock and Gile (2014). This package
 #' allows for population size estimation of a clustered or disconnected
 #' networked population using  respondent-driven sampling data collected from
 #' each cluster.
+#'
+#' Based on HPMRG project software (http://hpmrg.org).
+#' For license and citation information see http://hpmrg.org/attribution
 #'
 #' When publishing results obtained using this package the original authors are
 #' to be cited as:

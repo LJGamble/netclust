@@ -7,6 +7,9 @@
 #' Sampling Population Size Estimation approach:
 #' \code{\link[sspse]{posteriorsize}}.
 #'
+#' Based on HPMRG project software (http://hpmrg.org).
+#' For license and citation information see http://hpmrg.org/attribution
+#'
 #' @param s either a vector of integers or an \code{rds.data.frame} providing network
 #' size information with a column indicating cluster membership.
 #' @param c vector of cluster assignments for each member in the sample. If an
@@ -317,13 +320,11 @@ posteriorsize.c<-function(s, c, prop.prior.params = NULL,
                   optimism = TRUE,
                   reflect.time=TRUE,
                   verbose=TRUE){
-#
-  #degreedistribution=match.arg(degreedistribution)
-  #posfn <- switch(degreedistribution,
-  #                nbinom=posnbinom,
-  #                pln=pospln,
-  #                cmp=poscmp,
-  #                poscmp)
+# Based on 'statnet' project software (http://statnet.org).
+# For license and citation information see http://statnet.org/attribution
+
+# Based on HPMRG project software (http://hpmrg.org).
+# For license and citation information see http://hpmrg.org/attribution
 
   diff.size.by.clust <- TRUE
   degreedistribution <- "cmp"

@@ -314,6 +314,9 @@ and other model parameters for clustered populations using data collected by
 Respondent Driven Sampling. This method is an extension of the Successive
 Sampling Population Size Estimation approach:
 \code{\link[sspse]{posteriorsize}}.
+
+Based on HPMRG project software (http://hpmrg.org).
+For license and citation information see http://hpmrg.org/attribution
 }
 \section{Details on priors}{
  The best way to specify the prior is via the

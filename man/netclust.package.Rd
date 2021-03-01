@@ -3,8 +3,8 @@
 \docType{package}
 \name{netclust.package}
 \alias{netclust.package}
-\title{Estimate the Size of Clustered Hidden Populations Using Respondent Driven
-Sampling Data: an Extension of SS-PSE}
+\title{Estimate the Size of Clustered Hidden Populations Using Respondent-
+Driven Sampling Data: an Extension of SS-PSE}
 \description{
 Extends SS-PSE methods created by Handcock, Gile, and Mar (2014) and
 implemented in the sspse package by Handcock and Gile (2014). This package
@@ -13,6 +13,9 @@ networked population using  respondent-driven sampling data collected from
 each cluster.
 }
 \details{
+Based on HPMRG project software (http://hpmrg.org).
+For license and citation information see http://hpmrg.org/attribution
+
 When publishing results obtained using this package the original authors are
 to be cited as:
 
